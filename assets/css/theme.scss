@@ -2,8 +2,9 @@
 
 ---
 
+$white-offset: #ffd6bb;
 $brown: #B59F62;
-$teal: #40FFDC;
+$teal: #500e18;
 $black: #111;
 $primary: $teal;
 $dark:    $black;
@@ -14,6 +15,7 @@ $enable-rounded: false;
 @import "bootstrap/mixins";
 @import 'bootstrap/bootstrap';
 @import 'stars';
+@import 'pages/page-crafters';
 
 
 // general

@@ -31,6 +31,10 @@ permalink: /:title/
 #     twitter: https://twitter.com/wowthemesnet
     # description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
 
+collections:
+  crafter:
+    output: true
+
 # Plugins
 plugins:
   - jekyll-paginate
