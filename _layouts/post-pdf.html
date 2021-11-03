@@ -36,7 +36,13 @@ post_class: post-pdf-template
     {% include adsense-under-header.html %}
 {% endif %}
 <div class="toc mt-4 mb-4 lead {{ layout.post_class }}">
-    <embed src="{{site.baseurl}}/{{ page.pdf }}"/>
+    <!-- <embed src="{{site.baseurl}}/{{ page.pdf }}"/> -->
+    <object data="{{site.baseurl}}/{{ page.pdf }}" type="application/pdf">
+        <embed src="{{site.baseurl}}/{{ page.pdf }}">
+            <p>Versiunea mobilă nu este suportată pentru afișarea acestui conținut: <a href="{{site.baseurl}}/{{ page.pdf }}">Vezi fișierul</a>.</p>
+        </embed>
+    </object>
+    
 </div>
 <!-- Rating -->
 {% if page.rating %}
