@@ -9,6 +9,8 @@ $black: #111;
 $primary: $teal;
 $dark:    $black;
 $enable-rounded: false;
+$crafterbuttonbackgroundcolor: $brown;
+$crafterbuttoncolor: $teal;
 
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
@@ -16,11 +18,15 @@ $enable-rounded: false;
 @import 'bootstrap/bootstrap';
 @import 'stars';
 @import 'pages/page-crafters';
+@import 'pages/page-craftersdb';
+@import 'pages/page-post-pdf';
+@import 'pages/page-contacts';
 
 
 // general
 body, input, button, select, optgroup, textarea {   
     font-family:Sen;
+    min-width: 799px;
 }
 body {
     line-height:1.7;
