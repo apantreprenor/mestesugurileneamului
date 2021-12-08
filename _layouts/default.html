@@ -13,6 +13,7 @@
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
 
@@ -48,10 +49,10 @@
 <nav id="menu">
     <ul>
         <h3>Navigation</h3>
-        <li><a href="{{ site.baseurl }}/">Acasă</a></li>
-        <li><a href="{{ site.baseurl }}/about">Despre noi</a></li>
-        <li><a href="{{ site.baseurl }}/story">Proiectul CRAFTs4ED</a></li>
+        <li><a href="{{ site.baseurl }}/">Despre noi</a></li>
+        <!-- <li><a href="{{ site.baseurl }}/about">Despre noi</a></li> -->
         <li><a href="{{ site.baseurl }}/crafters">Meșterii populari</a></li>
+        <li><a href="{{ site.baseurl }}/about">Proiectul CRAFTs4ED</a></li>
         <li><a href="{{ site.baseurl }}/parteneri">Parteneri <span class="badge badge-primary">new</span></a></li>
         <li><a href="{{ site.baseurl }}/contact">Contacte</a></li>
     </ul>   
@@ -137,5 +138,16 @@
 {% endif %}
 {% endif %}
 
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+</script>
 </body>
 </html>

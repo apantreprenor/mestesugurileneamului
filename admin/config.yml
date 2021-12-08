@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'assets/img'
+public_folder: "/assets/img"
+site_domain: 'competent-pare-692598'
+collections:
+  - name: 'post'
+    label: 'Despre noi'
+    folder: '_posts/'
+    create: true
+    editor:
+      preview: false
+    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Titlul articolului', name: 'title', widget: 'string' }
+      - { label: 'Categorii', name: 'categories', widget: 'list', allow_add: true, default: ['Renașterea meșteșugurilor'], hint: 'Separate prin virgula' }
+      # - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Imagine de copertă', name: image, widget: image}
+      - { name: 'toc', default: false, widget: 'hidden'}
+      - { name: 'imageshadow', default: 'true', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Proiectul CRAFTs4ED'
+        name: 'page'
+        file: '_pages/about.md'
+        fields:
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'Informație despre proiect' }
+          - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/about' }
+          - { label: 'comments', name: 'comments', widget: 'hidden', default: false }
+          - { label: 'imageshadow', name: 'imageshadow', widget: 'hidden', default: true }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'crafters'
+    label: 'Mesterii Populari'
+    folder: '_crafter/'
+    create: true
+    editor:
+      preview: false
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Numele Mesterului', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Imaginea de profil', name: image, widget: image}
+      - { label: 'Meșteșug', name: 'jobtitle', widget: 'string' }
+      - { label: 'Telefon', name: 'phone', widget: 'string' }
+      - { label: 'Mester Cheie', name: 'promoted', widget: 'select', options: [{ label: "DA", value: 'true' }, { label: "NU", value: 'false' }]}
+      - { label: 'Ordinea', name: 'weight', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'crafter' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

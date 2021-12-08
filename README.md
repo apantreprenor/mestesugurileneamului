@@ -1,5 +1,5 @@
 
-To run the theme locally, navigate to the theme directory and run:
+To run the project locally, navigate to the project directory and run:
 
 ```
 bundle install
@@ -16,4 +16,10 @@ To build static content
 
 ```
 jekyll build
+```
+
+Clean up your jekyll build and cache
+
+```
+bundle exec jekyll clean
 ```
