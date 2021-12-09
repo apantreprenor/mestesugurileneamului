@@ -5,10 +5,14 @@ bodyClass: "page-crafter"
 <div class="{{ layout.bodyClass }}">
   <h1 class="name">{{page.title}}</h1>
   <p class="job">{{page.jobtitle}}</p>
-  <div class="content">{{content}}</div>
-  {% if page.image %}
-  <div class="crafter-image">
-    <img alt="{{ page.title }}" src="{{ page.image | relative_url }}" />
+  <div class="{{layout.bodyClass}}-cotent">
+    <div class="content">{{content}}</div>
+    {% if page.image %}
+    <figure class="picture">
+      <div class="picture-shadow"></div>
+      <img class="crafter-picture" alt="{{ page.title }}" src="{{ page.image | relative_url }}" width="320"
+        height="320" />
+    </figure>
+    {% endif %}
   </div>
-  {% endif %}
 </div>
