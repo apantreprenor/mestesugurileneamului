@@ -16,7 +16,7 @@ collections:
       - { label: 'Titlul articolului', name: 'title', widget: 'string' }
       - { label: 'Categorii', name: 'categories', widget: 'list', allow_add: true, default: ['Renașterea meșteșugurilor'], hint: 'Separate prin virgula' }
       # - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Imagine de copertă', name: image, widget: image}
+      - { label: 'Imagine de copertă', name: image, widget: image, allow_multiple: false}
       - { name: 'toc', default: false, widget: 'hidden'}
       - { name: 'imageshadow', default: 'true', widget: 'hidden'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -45,10 +45,37 @@ collections:
     fields:
       - { label: 'Numele Mesterului', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Imaginea de profil', name: image, widget: image}
+      - { label: 'Imaginea de profil', name: image, widget: image, allow_multiple: false}
       - { label: 'Meșteșug', name: 'jobtitle', widget: 'string' }
       - { label: 'Telefon', name: 'phone', widget: 'string' }
       - { label: 'Mester Cheie', name: 'promoted', widget: 'select', options: [{ label: "DA", value: 'true' }, { label: "NU", value: 'false' }]}
-      - { label: 'Ordinea', name: 'weight', widget: 'string' hint: 'Se folosesc primele 3 litere din nume'}
+      - { label: 'Ordinea', name: 'weight', widget: 'string', hint: 'Se folosesc primele 3 litere din nume'}
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'crafter' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'items'
+    label: 'Produse'
+    folder: '_items/'
+    create: true
+    editor:
+      preview: false
+    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'item' }
+      - { label: 'Denumirea lucrarii', name: 'title', widget: 'string' }
+      - { label: 'Categorii', name: 'category', widget: 'hidden', default: 'items'}
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, default: [''], hint: 'Separate prin virgula' }
+      # - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Imagine de copertă', name: image, widget: image, allow_multiple: false}
+      - { label: 'Galeria foto', name: gallery, widget: list, field: {label: Image, name: image, widget: image}}
+      - { name: 'toc', default: false, widget: 'hidden'}
+      - { name: 'imageshadow', default: 'true', widget: 'hidden'}
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'crafter',
+          display_fields: [title],
+          search_fields: [title],
+          value_field: 'title',
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }

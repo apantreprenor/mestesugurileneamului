@@ -1,0 +1,22 @@
+{% assign imagePerRow = 3 %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        {% assign tmpCount = 0 %}
+        {%for image in page.gallery%}
+            {% if tmpCount == imagePerRow %}
+                {% assign tmpCount = 0 %}
+                </div>
+            {% endif %}
+            {% if tmpCount == 0 %}
+                <div class="row top17">
+            {% endif %}
+            <a href="{{image | relative_url}}" data-lightbox="items" data-gallery="example-gallery" class="col-sm-4" data-max-width="600">
+                <img src="{{image | relative_url}}">
+            </a>
+            {% if forloop.index == forloop.length %}
+                </div>
+            {% endif %}
+            {% assign tmpCount = tmpCount | plus: 1 %}
+        {% endfor %}
+    </div>
+</div>

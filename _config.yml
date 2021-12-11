@@ -1,5 +1,5 @@
 # Site
-name: "CRAFTs4ED"
+name: "Meșteșugurile Neamului"
 title: "Renașterea meșteșugurilor populare autentice – moștenire culturală comună ca punct focal pentru dezvoltarea economică și turistică durabilă"
 description: "Investim în meșteșuguri tradiționale"
 logo: 'assets/logo.png'
@@ -34,6 +34,9 @@ email: crafts.proiect@gmail.com
 collections:
   crafter:
     output: true
+  items:
+    output: true
+    permalink: /:collection/:title/
 
 # Plugins
 plugins:

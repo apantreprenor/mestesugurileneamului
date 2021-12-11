@@ -3,16 +3,34 @@ layout: default
 bodyClass: "page-crafter"
 ---
 <div class="{{ layout.bodyClass }}">
-  <h1 class="name">{{page.title}}</h1>
-  <p class="job">{{page.jobtitle}}</p>
-  <div class="{{layout.bodyClass}}-cotent">
-    <div class="content">{{content}}</div>
+  <div class="row justify-content-center">
+    <h1 class="name">{{page.title}}</h1>
+  </div>
+  <div class="row justify-content-center">
+    <p class="job">{{page.jobtitle}}</p>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6 order-md-1 order-sm-2">{{content}}</div>
     {% if page.image %}
-    <figure class="picture">
+    <figure class="col-md-3 order-md-2 order-sm-1 text-center">
       <div class="picture-shadow"></div>
-      <img class="crafter-picture" alt="{{ page.title }}" src="{{ page.image | relative_url }}" width="320"
-        height="320" />
+      <a href="{{ page.image | relative_url }}" data-lightbox="{{ page.title }}-1">
+        <img class="crafter-picture" alt="{{ page.title }}" src="{{ page.image | relative_url }}" width="320"
+          height="320" />
+      </a>
     </figure>
     {% endif %}
+  </div>
+
+  <h2 class="text-center mb-4">Lucrările meșterilor</h2>
+  <div class="d-flex justify-content-center align-items-center">
+    <div class="blog-grid-container">
+    {% assign item = site.items | where: 'author', page.title %}
+    {% for post in item %}
+    {% if post.title != page.title %}
+      {% include itemboxlight.html %}
+    {% endif %}
+    {% endfor %}
+    </div>
   </div>
 </div>

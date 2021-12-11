@@ -1,0 +1,20 @@
+---
+title: "Lucrările Meșterilor Populari din rețeaua CRAFTs4ED"
+layout: default
+permalink: "/items.html"
+---
+
+<!-- <h4 class="mt-5 mb-neg-30" id="{{ post.category | replace: " ","-" }}"><span class="text-capitalize badge badge-primary text-small">{{ post.category }}</span></h4> -->
+<div class="blog-grid-container">
+{% assign pages_list = post %}
+{% for post in site.items %}
+{% if post.title != null %}
+{% if group == null or group == post.group %}
+{% include itembox.html %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}
+</div>
+
