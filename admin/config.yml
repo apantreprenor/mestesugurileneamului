@@ -16,9 +16,10 @@ collections:
       - { label: 'Titlul articolului', name: 'title', widget: 'string' }
       - { label: 'Categorii', name: 'categories', widget: 'list', allow_add: true, default: ['Renașterea meșteșugurilor'], hint: 'Separate prin virgula' }
       # - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Imagine de copertă', name: image, widget: image, allow_multiple: false}
+      - { label: 'Imagine de copertă', name: 'image', widget: image, allow_multiple: false}
       - { name: 'toc', default: false, widget: 'hidden'}
       - { name: 'imageshadow', default: 'true', widget: 'hidden'}
+      - {label: "Comments", name: 'comments', widget: "boolean", default: false}
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
@@ -68,6 +69,7 @@ collections:
       - { label: 'Imagine de copertă', name: image, widget: image, allow_multiple: false}
       - { label: 'Galeria foto', name: gallery, widget: list, field: {label: Image, name: image, widget: image}}
       - { name: 'toc', default: false, widget: 'hidden'}
+      - {label: "Comments", name: 'comments', widget: "boolean", default: true}
       - { name: 'imageshadow', default: 'true', widget: 'hidden'}
       - {
           label: 'Author',
