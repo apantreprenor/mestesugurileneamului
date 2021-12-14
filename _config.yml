@@ -37,6 +37,9 @@ collections:
   items:
     output: true
     permalink: /:collection/:title/
+  partners:
+    output: true
+    permalink: /:collection/:title/
 
 # Plugins
 plugins:

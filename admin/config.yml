@@ -79,3 +79,18 @@ collections:
           value_field: 'title',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'parteneri'
+    label: 'Parteneri'
+    folder: '_partners/'
+    create: true
+    editor:
+      preview: false
+    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    fields:
+      - { label: 'Denumirea', name: 'title', widget: 'string' }
+      - { label: 'Descrierea', name: 'description', widget: 'string' }
+      - { label: 'Imagine de copertă', name: image, widget: image, allow_multiple: false}
+      - { label: 'Pagina web', name: 'web', widget: 'string'}
+      - { label: 'Pagina facebook', name: 'facebook', widget: 'string'}
+      - { label: 'Email', name: 'email', widget: 'string'}
+      - { label: 'Ordinea', name: 'weight', widget: 'string', hint: 'Se folosesc primele 3 litere din nume'}

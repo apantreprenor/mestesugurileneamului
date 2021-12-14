@@ -1,0 +1,38 @@
+---
+layout: page
+title: Parteneri
+permalink: /parteneri
+comments: false
+---
+<div class="list-authors mt-5">
+{% assign sorted_partners = site.partners | sort: "weight" %}
+{% for partner in sorted_partners %}   
+    <div id="{{ partner.title }}" class="partnersbox position-relative pb-5 pt-5 mb-4 mt-4 border">   
+        <div class="row">
+            <div class="wrapavname col-md-3 text-center">
+                <img  class="partner-thumb" src="{{ partner.image | relative_url }}" alt="{{ partner.title }}">
+                <p class="mt-4 mb-0 small text-center">
+
+
+
+
+                </p>
+                
+            </div>
+            <div class="col-md-9">
+                <h3>{{ partner.title }}</h3>
+                <p class="mt-3 mb-0">{{ partner.description }}</p> 
+                {% if partner.web %}
+                <a target="_blank" class="d-inline-block mx-1 text-dark d-flex align-items-center justify-content-right" href="{{ partner.web }}"><i class="fa fa-link mr-1"></i> - {{ partner.web }}</a> 
+                {% endif %}
+                {% if partner.facebook %}
+                <a target="_blank" class="d-inline-block mx-1 text-dark d-flex align-items-center justify-content-right" href="{{ partner.facebook }}"><i class="fab fa-facebook mr-1"></i> - {{ partner.facebook }}</a>
+                {% endif %}
+                {% if partner.email %}
+                <a class="d-inline-block mx-1 text-dark d-flex align-items-center justify-content-right" href="mailto:{{ partner.email }}"><i class="fa fa-envelope mr-1"></i> - {{ partner.email }}</a>
+                {% endif %}
+            </div>
+        </div> 
+    </div>    
+{% endfor %}
+</div>
