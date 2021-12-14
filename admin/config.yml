@@ -10,7 +10,7 @@ collections:
     create: true
     editor:
       preview: false
-    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Titlul articolului', name: 'title', widget: 'string' }
