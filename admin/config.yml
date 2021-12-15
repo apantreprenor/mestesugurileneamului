@@ -59,7 +59,7 @@ collections:
     create: true
     editor:
       preview: false
-    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'item' }
       - { label: 'Denumirea lucrarii', name: 'title', widget: 'string' }
@@ -87,12 +87,12 @@ collections:
     create: true
     editor:
       preview: false
-    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - { label: 'Denumirea', name: 'title', widget: 'string' }
-      - { label: 'Descrierea', name: 'description', widget: 'string' }
+      - { label: 'Denumirea', name: 'title', widget: 'string', }
+      - { label: 'Descrierea', name: 'description', widget: 'string' required: false}
       - { label: 'Imagine de copertă', name: image, widget: image, allow_multiple: false}
-      - { label: 'Pagina web', name: 'web', widget: 'string'}
-      - { label: 'Pagina facebook', name: 'facebook', widget: 'string'}
-      - { label: 'Email', name: 'email', widget: 'string'}
-      - { label: 'Ordinea', name: 'weight', widget: 'string', hint: 'Se folosesc primele 3 litere din nume'}
+      - { label: 'Pagina web', name: 'web', widget: 'string', required: false}
+      - { label: 'Pagina facebook', name: 'facebook', widget: 'string', required: false}
+      - { label: 'Email', name: 'email', widget: 'string', required: false}
+      - { label: 'Ordinea', name: 'weight', widget: 'string', hint: 'Se folosesc primele 3 litere din nume', default: "zzz"}
