@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <!-- Site Logo/Name
+================================================== -->
+    <a class="navbar-brand" href="/">
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.name }}" width="30" height="30"
+            class="d-inline-block align-top">
+        {{ site.name }}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/">Despre noi</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about">Despre noi</a></li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Meșterii populari
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/crafters">Meșterii populari</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/items">Lucrările meșterilor populari</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/craftersmap">Harta meșterilor populari</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Proiectul CRAFTs4ED
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/about">Proiectul CRAFTs4ED</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/parteneri">Parteneri <span
+                            class="badge badge-primary">new</span></a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/contact">Contacte</a>
+                </div>
+            </li>
+        </ul>
+
+        <!--Lunr Search
+    ================================================-->
+        <script src="{{site.baseurl}}/assets/js/lunr.js"></script>
+        <script src="{{site.baseurl}}/assets/js/lunr.stemmer.support.js"></script>
+        <script src="{{site.baseurl}}/assets/js/lunr.ro.js"></script>
+        <form class="form-inline my-2 my-lg-0"
+            onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="mr-sm-2 form-control bigradius text-small launch-modal-search" id="lunrsearch"
+                name="q" maxlength="255" value="" placeholder="Căutare rapidă..." />
+        </form>
+        <i class="fas fa-search show-search my-2 my-sm-0"></i>
+
+
+    </div>
+</nav>
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="{{site.baseurl}}/assets/js/lunrsearchengine.js"></script>

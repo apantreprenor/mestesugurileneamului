@@ -22,6 +22,7 @@ $crafterbuttoncolor: $teal;
 @import 'pages/page-craftersdb';
 @import 'pages/page-post-pdf';
 @import 'pages/page-contacts';
+@import 'masthead';
 
 
 // general
@@ -130,7 +131,7 @@ img, img:hover {
     animation: fade-up 0.7s ease-out forwards running;
 }
 // menu
-.navbar-brand img {
+.site-logo img {
     max-height:80px;
     margin-bottom:40px;
     margin-top:40px;

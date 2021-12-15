@@ -11,8 +11,9 @@
 {% seo %}
     
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
-
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/popper.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script src="{{ site.baseurl }}/assets/js/lightbox.min.js"></script>
 <link href="{{ site.baseurl }}/assets/css/lightbox.css" rel="stylesheet" />
@@ -41,29 +42,8 @@
 
 <!-- Begin Sidebar Navigation
 ================================================== -->
-
-<div class="sidebar">    
-</div>   
-<div class="nav-icon">
-    <div class="hamburger-bar"></div>
-</div>
-<div id="blackover-nav" class="blackover"></div>
-<nav id="menu">
-    <ul>
-        <h3>Navigation</h3>
-        <li><a href="{{ site.baseurl }}/">Despre noi</a></li>
-        <!-- <li><a href="{{ site.baseurl }}/about">Despre noi</a></li> -->
-        <li><a href="{{ site.baseurl }}/crafters">Meșterii populari</a></li>
-        <li><a href="{{ site.baseurl }}/items">Lucrările meșterilor populari</a></li>
-        <li><a href="{{ site.baseurl }}/craftersmap">Harta meșterilor populari</a></li>
-        <li><a href="{{ site.baseurl }}/about">Proiectul CRAFTs4ED</a></li>
-        <li><a href="{{ site.baseurl }}/parteneri">Parteneri <span class="badge badge-primary">new</span></a></li>
-        <li><a href="{{ site.baseurl }}/contact">Contacte</a></li>
-    </ul>   
-</nav>
-
-{% include search-lunr.html %}
-
+{% assign includeLogo = false %}
+{% include navigation2.html %}
 
 <!-- End Sidebar Navigation
 ================================================== -->
@@ -74,19 +54,23 @@
 
     <!-- Site Logo/Name
     ================================================== -->
-   
-    <a class="navbar-brand d-flex align-items-center justify-content-right" href="/">
+    {% if includeLogo %}
+    <a class="navbar-brand site-logo d-flex align-items-center justify-content-right" href="/">
         <img src="{{ site.logo | relative_url }}" alt="{{ site.name }}">
         <div class="mx-3 sitetag">{{ site.name }}</div>
     </a>  
-   
+    {% endif %}
 
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
-        <p class="sitetag">
-            {{ site.description }}
-        </p>
+        {% if includeLogo %}
+            <p class="sitetag">
+                {{ site.description }}
+            </p>
+        {% else %}
+            {% include sitetag.html%}
+        {% endif %}
     {% endif %}
 
     <!-- Content
