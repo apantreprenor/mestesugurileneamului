@@ -90,7 +90,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Denumirea', name: 'title', widget: 'string', }
-      - { label: 'Descrierea', name: 'description', widget: 'string' required: false}
+      - { label: 'Descrierea', name: 'description', widget: 'string', required: false}
       - { label: 'Imagine de copertă', name: image, widget: image, allow_multiple: false}
       - { label: 'Pagina web', name: 'web', widget: 'string', required: false}
       - { label: 'Pagina facebook', name: 'facebook', widget: 'string', required: false}
