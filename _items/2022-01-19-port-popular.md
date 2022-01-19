@@ -17,4 +17,4 @@ comments: true
 imageshadow: "true"
 author: Bulboacă Rodica
 ---
-Port popular,ii,cămeși bărbătești  ,bundițe din zona Vaslui.Confecționate manual.
+Port popular:ii,cămeși bărbătești  ,bundițe din zona Vaslui.Confecționate manual.
