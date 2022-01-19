@@ -1,6 +1,6 @@
 ---
 layout: item
-title: Împletituri
+title: Împletituri cu noduri
 category: items
 tags:
   - Împletituri decorative din tehnica noduri
