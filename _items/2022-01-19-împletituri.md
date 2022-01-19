@@ -1,6 +1,6 @@
 ---
 layout: item
-title: Împletituri cu noduri
+title: Împletituri decorative din texnica   noduri
 category: items
 tags:
   - Împletituri decorative din tehnica noduri
@@ -10,4 +10,4 @@ comments: true
 imageshadow: "true"
 author: Pletea Sorina
 ---
-Împletituri decorative cu noduri suporturi pentru  perete.
+Împletituri decorative cu noduri ,suporturi pentru  perete.
