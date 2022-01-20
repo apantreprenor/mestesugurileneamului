@@ -9,6 +9,7 @@ image: /assets/img/img_3398.jpg
 gallery:
   - /assets/img/soeina1.jpg
   - /assets/img/sorina2.jpg
+  - /assets/img/sorina.jpg
 toc: false
 comments: true
 imageshadow: "true"
