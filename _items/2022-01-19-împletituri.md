@@ -10,4 +10,4 @@ comments: true
 imageshadow: "true"
 author: Pletea Sorina
 ---
-Împletituri decorative cu noduri ,suporturi pentru  perete.
+Împletituri decorative cu noduri ,suporturi de perete.
