@@ -3,7 +3,7 @@ layout: item
 title: Ie de Basarabia
 category: items
 tags:
-  - Confectionatamanual
+  - Confectionata manual
 image: /assets/img/270856339_1052079778692038_2918854201999512503_n.jpg
 toc: false
 comments: true
