@@ -1,6 +1,6 @@
 ---
 layout: item
-title: obiecte decorative de Anul Nou
+title: Obiecte decorative de Anul Nou
 category: items
 tags:
   - Obiecte decorative  de Anul Nou din lemn
