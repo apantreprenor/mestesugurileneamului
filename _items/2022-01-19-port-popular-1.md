@@ -8,10 +8,7 @@ tags:
   - catrințe țesute manual
   - brâie
 image: /assets/img/img_5004.jpg
-gallery:
-  - /assets/img/img_1565.jpg
-  - /assets/img/img_4990.jpg
-  - /assets/img/img_4984.jpg
+gallery: []
 toc: false
 comments: true
 imageshadow: "true"
