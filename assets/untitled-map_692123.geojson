@@ -1,0 +1,377 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/andronache-m.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Andronache_Mari%C8%9Ba|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.78511,
+          46.685247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Beju%20Tamara.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Beju%20Tamara|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.169289,
+          46.007405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buclea Cristian-Petru ,pictură naivă,icoane",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Buclea%20Cristian-Petru.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Buclea%20Cristian-Petru|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.687744,
+          46.226915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulboacă Rodica,costum popular,cămăși,poale,bundițe",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Bulboac%C4%83%20Rodica.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Bulboac%C4%83%20Rodica|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.606068,
+          46.650497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gheorghiu Ioana,pictură naivă,icoane",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Gheorghiu%20Ioana.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Gheorghiu%20Ioana|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.119507,
+          45.435622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cîșlaru  Tudor  , prelucrarea artistică  a lemnului",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/C%C3%A2%C8%99laru%20Tudor.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/C%C3%A2%C8%99laru%20Tudor|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.410126,
+          46.637694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cîșlaru Olga  ,broderie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.407654,
+          46.647949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Constantinescu Daniela,păpuși,împâslit",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Constantinescu%20Daniela.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Constantinescu%20Daniela|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.059083,
+          45.435622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grigoruță Floarea țesut,port popular",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Grigoru%C8%9B%C4%83%20Floarea.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Grigoru%C8%9B%C4%83%20Floarea|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.791977,
+          46.756093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dorin Elizaveta ,prelucrarea fibrelor vegetale,broderie",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Dorin%20Elizaveta.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Dorin%20Elizaveta|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.182678,
+          45.718096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galina Marinescu   ,port popular ,țesut",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Marinescu%20Galina.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Marinescu%20Galina|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.811127,
+          46.467549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iurianu Alexandra Diana   ,confecționare port popular",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Iurianu%20Alexandra%20Diana.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Iurianu%20Alexandra%20Diana|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.390118,
+          46.712075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pletea Sorina",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Pletea%20Sorina.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Pletea%20Sorina|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.097535,
+          45.466467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Popovici Vasile,confecționarea măștirilor",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Popovschi%20Vasile.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Popovschi%20Vasile|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.638268,
+          46.475767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sava Fedosia,croșetare,broderie, port popular",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Sava%20Fedosia.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Sava%20Fedosia|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.058563,
+          46.678246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sergiu Papuha,prelucrarea lemnului",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Papuha%20Sergiu.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Papuha%20Sergiu|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.921402,
+          46.495878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tatiana Barbăneagră,fibre vegetale,olărit",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Barb%C4%83neagr%C4%83%20Tatiana.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Barb%C4%83neagr%C4%83%20Tatiana|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.044312,
+          46.435543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tatiana Pușca,croșetare",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Pu%C8%99ca%20Tatiana.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Pu%C8%99ca%20Tatiana|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.663532,
+          46.63977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Țibuleac  Didina ,cusături-port popular",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/%C8%9Aibuleac%20Didina.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/%C8%9Aibuleac%20Didina|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.750778,
+          46.693313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tudor Crețu,prelucrarea artistică a lemnului,cornului,pictură",
+        "_umap_options": {
+          "iconUrl": "https://mestesugurileneamului.org/assets/img/crafter/Cre%C8%9Bu%20Tudor.jpg",
+          "zoomTo": 64,
+          "popupShape": "Large"
+        },
+        "description": "{{{https://mestesugurileneamului.org/crafter/Cre%C8%9Bu%20Tudor|1024*1024}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.78212,
+          46.51975
+        ]
+      }
+    }
+  ]
+}
