@@ -3,7 +3,7 @@ layout: item
 title: Tablou lucrat în fibre vegetale „Biserica albă”
 category: items
 tags:
-  - Tabloudinfibrevegetale
+  - Tablou din fibre vegetale
 image: /assets/img/img-8baa4b673e7345dbe781d5145b2e74b2-v.jpg
 toc: false
 comments: true
