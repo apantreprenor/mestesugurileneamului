@@ -1,6 +1,6 @@
 ---
 layout: item
-title: suvenir cu marci de vinuri fabricate in Moldova
+title: Suvenir cu marci de vinuri fabricate in Moldova
 category: items
 tags:
   - ""
