@@ -3,7 +3,7 @@ layout: item
 title: Sculptură în lemn
 category: items
 tags:
-  - compoziție din  trei piese
+  - Compoziție din  trei piese
 image: /assets/img/img_6740.jpg
 toc: false
 comments: true
