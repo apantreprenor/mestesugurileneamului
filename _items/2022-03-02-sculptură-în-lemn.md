@@ -1,6 +1,6 @@
 ---
 layout: item
-title: sculptură în lemn
+title: Sculptură în lemn
 category: items
 tags:
   - ""
