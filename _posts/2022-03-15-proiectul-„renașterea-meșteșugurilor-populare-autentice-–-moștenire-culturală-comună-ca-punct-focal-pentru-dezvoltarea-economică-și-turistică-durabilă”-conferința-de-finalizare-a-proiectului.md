@@ -14,8 +14,6 @@ Vineri, 15 octombrie 2021, în incinta Palatului de Cultura "Nicolae Botgros" di
 
 La eveniment au participat reprezentanți ai instituțiilor locale și regionale, agențiilor și ONG-uri interesate în promovarea meșteșugurilor populare autentice și dezvoltării turismului din Regiunea de Dezvoltare Sud, precum și meșteri populari din grupul țintă, echipa și colaboratorii proiectului din partea ambilor parteneri. S-au facut totaluri, au fost menționate concluziile și stabilite direcții viitoare de promovare a meșteșugurilor populare autentice.
 
- 
-
 Dna Viorica Cuțitaru, manager de proiect din partea Agenției de Dezvoltare Regională Sud, a prezentat realizările obținute în procesul de implementare proiectului, axându-se pe cele mai importante activități cu implicarea meșterilor populari din Regiunea Sud pe ambele părți ale Prutului. A menționat că Meșterii locali sunt adevarate bijuterii, pentru ca în mâinile lor sunt tradițiile, au alături copii ce preiau meșteșugul de a face lucrul pana la capăt, și... au caracter de a merge impotriva cursului!
 
 Dna Marina Miron și Dl Victor Munteanu, etnografi din Republica Moldova și România, au adus la cunoștință starea meșteșugurilor tradiționale în Regiunea de Dezvoltare Sud din Republica Moldova și județele Vaslui și Galați din România, identificată în cadrul activității de cartografiere a meșterilor populari din aria proiectului.
@@ -36,10 +34,4 @@ Mulțumim vice-primarului mun. Cahul Dna Tatiana Romaniuc si direcției Palatulu
 
 Vedeți mai jos prezentările echipei de proiect, fotografii din cadrul evenimentului.
 
- 
-
 Viorica Cuțitaru, manager proiect.
-
- 
-
-<!--EndFragment-->
